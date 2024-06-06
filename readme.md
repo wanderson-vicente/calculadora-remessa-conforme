@@ -16,7 +16,12 @@ Este projeto é uma calculadora de impostos para compras internacionais que util
 * O código utiliza a biblioteca fetch para fazer requisições HTTP à API do Banco Central do Brasil.
 * O código utiliza a biblioteca JSON para manipular a resposta da API.
 * O código utiliza a biblioteca Date para manipular datas.
-### Autor
+
+## Imagem da Tela do Aplicativo
+
+![Imagem do Projeto](https://github.com/wanderson-vicente/calculadora-remessa-conforme/blob/30744f7c12244536f5e8a1b73158b06cccf4bf33/Captura-de-tela-html.png)
+
+## Autor
 Wanderson Vicente
 Data
 06/06/2024
