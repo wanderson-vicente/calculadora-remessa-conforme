@@ -1,0 +1,32 @@
+
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Imposto Remessa Conforme</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <div class="main-container">
+        <div class="image"></div>
+        <div class="container">
+            <h1>Calculadora de Impostos Remessa Conforme</h1>
+            <div class="input-group">
+                <label for="valorProduto">Preço do produto (em R$):</label>
+                <input type="number" id="valorProduto" placeholder="Valor do Produto">
+            </div>
+            <div class="input-group">
+                <label for="valorFrete">Valor do frete (em R$):</label>
+                <input type="number" id="valorFrete" placeholder="Valor do Frete">
+            </div>
+            <button onclick="calcularImpostos()">Calcular</button>
+            <div class="resultado">
+                <!-- <h2>Resultado:</h2> -->
+                <div id="resultado" class="resultado-content"></div>
+            </div>
+        </div>
+    </div>
+    <script src="script.js"></script>
+</body>
+</html>
